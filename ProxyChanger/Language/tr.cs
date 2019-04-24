@@ -18,6 +18,7 @@ namespace ProxyChanger.Language
             _mainGUI.btnSettings.Text = "Ayarlar";
             _mainGUI.languageToolStripMenuItem.Text = "Dil";
             _mainGUI.toolStripMenuItem1.Text = "Windows Proxy Ayarları";
+            _mainGUI.gitHubRepositiesToolStripMenuItem.Text = "Benim GitHub Depolarım";
             _mainGUI.aboutToolStripMenuItem.Text = "Hakkında";
         }
         internal static void _about_()

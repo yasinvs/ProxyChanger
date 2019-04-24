@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ProxyChanger")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Yasin SEKMAN")]
+[assembly: AssemblyCompany("yasinvs")]
 [assembly: AssemblyProduct("ProxyChanger")]
 [assembly: AssemblyCopyright("Copyright © 2019 yasinvs")]
 [assembly: AssemblyTrademark("")]

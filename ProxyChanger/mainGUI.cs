@@ -177,5 +177,12 @@ namespace ProxyChanger
         {
             Process.Start("rundll32", "shell32.dll,Control_RunDLL inetcpl.cpl,,4");
         }
+
+        private void GitHubRepositiesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process _github = new Process();
+            _github.StartInfo.FileName = "https://github.com/yasinvs";
+            _github.Start();
+        }
     }
 }

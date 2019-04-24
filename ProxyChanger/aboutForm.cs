@@ -37,9 +37,9 @@ namespace ProxyChanger
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Process _mail = new Process();
-            _mail.StartInfo.FileName = "mailto:sekmanyasin@hotmail.com?subject=ProxyChanger";
-            _mail.Start();
+            Process _github1 = new Process();
+            _github1.StartInfo.FileName = "https://github.com/yasinvs/ProxyChanger";
+            _github1.Start();
         }
 
         private void LinkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)

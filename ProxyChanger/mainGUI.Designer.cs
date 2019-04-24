@@ -47,6 +47,7 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gitHubRepositiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gbProxy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -157,11 +158,12 @@
             this.toolStripSeparator2,
             this.toolStripMenuItem1,
             this.toolStripSeparator1,
+            this.gitHubRepositiesToolStripMenuItem,
             this.aboutToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.contextMenuStrip1.ShowImageMargin = false;
-            this.contextMenuStrip1.Size = new System.Drawing.Size(174, 82);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(174, 104);
             // 
             // languageToolStripMenuItem
             // 
@@ -175,14 +177,14 @@
             // englishToolStripMenuItem
             // 
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            this.englishToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.englishToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.englishToolStripMenuItem.Text = "English";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // türkçeToolStripMenuItem
             // 
             this.türkçeToolStripMenuItem.Name = "türkçeToolStripMenuItem";
-            this.türkçeToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.türkçeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.türkçeToolStripMenuItem.Text = "Türkçe";
             this.türkçeToolStripMenuItem.Click += new System.EventHandler(this.türkçeToolStripMenuItem_Click);
             // 
@@ -209,6 +211,13 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // gitHubRepositiesToolStripMenuItem
+            // 
+            this.gitHubRepositiesToolStripMenuItem.Name = "gitHubRepositiesToolStripMenuItem";
+            this.gitHubRepositiesToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.gitHubRepositiesToolStripMenuItem.Text = "My GitHub Reposities";
+            this.gitHubRepositiesToolStripMenuItem.Click += new System.EventHandler(this.GitHubRepositiesToolStripMenuItem_Click);
             // 
             // mainGUI
             // 
@@ -251,8 +260,9 @@
         internal System.Windows.Forms.ToolStripMenuItem türkçeToolStripMenuItem;
         internal System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         internal System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         internal System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        internal System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        internal System.Windows.Forms.ToolStripMenuItem gitHubRepositiesToolStripMenuItem;
     }
 }
 
