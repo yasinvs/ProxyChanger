@@ -1,0 +1,14 @@
+﻿CommandLine Arguments:
+===================
+/enable  - Enable proxy setting
+/disable - Disable proxy setting
+===================
+Example(s):
+	ProxyChanger.exe /disable
+	ProxyChanger.exe /enable 192.168.1.1:8080
+===================
+Example Local Address Bypass:
+	ProxyChanger.exe /enable 192.168.1.1:8080 /bypass
+=================== ===================
+Copyright © 2019 yasinvs 
+All Rights Reserved
